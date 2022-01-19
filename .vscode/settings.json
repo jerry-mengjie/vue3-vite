@@ -4,10 +4,5 @@
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-  "cSpell.words": [
-    "vite",
-    "vitejs",
-    "pinia",
-    "stylelint",
-  ],
+  "cSpell.words": ["vite", "vitejs", "pinia", "stylelint"]
 }
