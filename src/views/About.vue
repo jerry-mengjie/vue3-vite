@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import { storeToRefs } from 'pinia' // 类似toRefs
-import { useAboutStore } from '../store/modules/about'
+import { useAboutStore } from '@/store/modules/about'
 
 const { counter } = storeToRefs(useAboutStore())
 const { increment } = useAboutStore()
