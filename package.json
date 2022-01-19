@@ -4,7 +4,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier:check": "prettier --check ./",
+    "prettier:write": "prettier --write ./",
+    "eslint:check": "eslint --debug ./",
+    "eslint:write": "eslint --fix  ./",
+    "stylelint:check": "stylelint  **/*.{css,less}",
+    "stylelint:write": "stylelint  **/*.{css,less} --fix"
   },
   "dependencies": {
     "pinia": "^2.0.9",
